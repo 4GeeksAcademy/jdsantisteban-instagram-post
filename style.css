@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    background-color: white;
+    width: 360px;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    position: absolute; 
+    top: 10%;
+    
+}
+
+i {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 5px;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 40px;
+    font-size: 10px;
+    align-items: center;
+}
+
+.post-header > div {
+    height: 30px;
+    margin: 10px;
+    align-self: center;
+}
+
+.post-header-left {
+    display: flex;
+    width: 50%;
+    align-self: flex-start;
+}
+
+.post-header-left > div {
+    margin: 5px;
+}
+
+.post-header-right {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.post-icons {
+    display: flex;
+    margin: 5px;
+}
+
+.post-icons i:last-child {
+    margin-left: auto;
+}
+
+.post-body > p {
+    margin: 20px 5px;
+    font-size: small;
+}
